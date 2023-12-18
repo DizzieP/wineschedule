@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('wine glass.jpg');
+    background-image: url("https://i.imgur.com/sXj9K3n.gif");
     font-family: 'Oswald', sans-serif;
   }
   
@@ -75,10 +75,12 @@ body {
     background-color: gray;
   }
   
-  .container {
+  div.container {
     max-width: 940px;
     margin: 0 auto;
-    height: 1050px;
+    height: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
   
   

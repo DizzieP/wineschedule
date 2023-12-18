@@ -1,19 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: #953553;
-    color: white;
+    background-image: url('wine glass.jpg');
     font-family: 'Oswald', sans-serif;
   }
   
   header {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0px;
   }
   
   h1 {
     font-size: 36px;
     padding: 15px;
-    color: gray;
-    background-color: white;
+    color: white;
+    background-color: #953553;
+    opacity: 0.7;
+  }
+
+  h2.wine {
+    background-color: gray;
+    color: white;
   }
   
   h2 {
@@ -34,7 +44,8 @@ body {
   }
   
   th {
-    border: 2px solid #ffffb7;
+    background-color: #f9e8c0;
+    border: 2px solid black;
   }
   
   table {
@@ -43,7 +54,7 @@ body {
   }
   
   td {
-    border: 2px solid #ffffb7;
+    border: 2px solid black;
     width: 300px;
   }
   
@@ -52,7 +63,7 @@ body {
     text-align: center;
     position: fixed;
     width: 100%;
-    bottom: 5px;
+    bottom: 0px;
     background-color: gray;
     z-index: 5;
     
@@ -60,8 +71,8 @@ body {
   footer h3 {
     display: inline-block;
     font-size: 14px;
-    background-color: white;
-    color: gray;
+    color: white;
+    background-color: gray;
   }
   
   .container {
